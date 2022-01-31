@@ -283,7 +283,7 @@ section.contact{
 
 
 section.contact .contact-form{
-    width: 60%;
+    width: 49%;
     height: 100vh;
     color: rgb(#090914);
     display: flex;
@@ -292,7 +292,7 @@ section.contact .contact-form{
 }
 
 section.contact input, section.contact textarea{
-    width: 70%;
+    width: 49%;
     box-shadow: none;
     border: 0px;
     border-bottom: 3px solid #000;
@@ -317,6 +317,7 @@ section.contact button{
   background-color: transparent;
   box-shadow: none;
 }
+
 
 section.contact button:hover{
     padding: 6px 80px;
@@ -448,6 +449,10 @@ section.contact .info {
         text-align: center;
 
     }
+    section.about{
+        background-position: -480px;
+    }
+
 
     /*Contact*/
     section.contact{
@@ -468,17 +473,8 @@ section.contact .info {
     section.contact input, section.contact textarea{
         width: 100%;
     }
+    
 
-    .map{
-        width: 80%;
-        margin: 50px auto 0px auto;
-        display: block;
-    }
-
-    .map img{
-        width: 100%;
-        display: block;
-    }
 
     /*Footer*/
     .footer{
@@ -608,17 +604,6 @@ section.contact .info {
             width: 100%;
         }
     
-        .map{
-            width: 80%;
-            margin: 50px auto 0px auto;
-            display: block;
-        }
-    
-        .map img{
-            width: 100%;
-            display: block;
-        }
-    
         /*Footer*/
         .footer{
             display: grid;
@@ -685,13 +670,9 @@ section.contact .info {
         align-items: center;
     }
 
-    section.contact map{
-        display: inline;
-    }
 
     section.contact .contact-form .form,
-    section.contact .contact-form .info,
-    section.contact .contact-form .map{
+    section.contact .contact-form .info,{
         width: 80%;
     }
 
